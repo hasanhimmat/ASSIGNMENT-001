@@ -248,3 +248,39 @@ nav ul li a {
   height: 364px;
   border-radius: 25px;
 }
+
+/* contact section */
+.contact {
+  max-width: 90%;
+  margin: 50px auto;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact h2 {
+  font-size: 96px;
+}
+
+.contact form input, textarea {
+  width: 497px;
+  display: block;
+  padding: 10px;
+  border: 1px solid #F2EDED;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+
+.contact form button {
+  width: 497px;
+  height: 62px;
+  margin: 20px 0;
+  background-color: #4E47FF;
+  border: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+}
