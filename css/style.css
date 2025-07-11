@@ -210,3 +210,41 @@ nav ul li a {
 .reviewer-info p {
   color: #B3B3B3;
 }
+
+
+
+/* ready to focus section */
+.focus {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+
+.focus h2 {
+  font-size: 50px;
+}
+
+.focus a {
+  text-decoration: none;
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  padding: 8px 24px;
+  border-radius: 10px;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.focus p {
+  color: #B3B3B3;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.focus img {
+  width: 840px;
+  height: 364px;
+  border-radius: 25px;
+}
