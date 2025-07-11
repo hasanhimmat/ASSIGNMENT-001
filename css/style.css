@@ -70,7 +70,15 @@ nav ul li a {
   text-align: center;
   border-radius: 10px;
   text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
 }
+
+.btn-primary:hover {
+  background-color: #6B63FF;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(78, 71, 255, 0.4);
+}
+
 
 /* banner section */
 .banner {
@@ -234,6 +242,13 @@ nav ul li a {
   border-radius: 10px;
   margin: 20px 0;
   display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.focus a:hover {
+  background-color: #6B63FF;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(78, 71, 255, 0.3);
 }
 
 .focus p {
@@ -281,7 +296,14 @@ nav ul li a {
   color: #FFFFFF;
   font-weight: bold;
   border-radius: 10px;
-  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.contact form button:hover {
+  background-color: #6B63FF;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(78, 71, 255, 0.3);
 }
 
 
@@ -301,6 +323,7 @@ footer {
   text-align: center;
   color: #4E47FF;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 footer p {
@@ -320,6 +343,7 @@ footer ul li {
 
 footer ul li a {
   color: #8987A1;
+  font-size: 14px;
   text-transform: capitalize;
   text-decoration: none;
 }
