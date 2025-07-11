@@ -1,0 +1,5 @@
+/* Remove default margin padding */
+* {
+  margin: 0;
+  padding: 0
+}
