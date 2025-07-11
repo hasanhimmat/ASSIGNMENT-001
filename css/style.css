@@ -24,12 +24,15 @@
 
 
 header {
-
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 header nav {
   width: 90%;
-  margin: 20px auto;
+  margin: 0 auto;
+  padding-top: 50px;
 }
 
 nav ul {
@@ -62,5 +65,23 @@ nav ul li a {
   text-transform: capitalize;
   text-align: center;
   border-radius: 10px;
+  text-decoration: none;
 
+}
+
+/* banner section */
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+}
+
+.banner h2 {
+  font-size: 65px;
+  font-weight: bold;
+  color: #252432;
+  text-align: center;
+  margin: 100px 0 20px 0;
 }
